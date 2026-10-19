@@ -8,7 +8,7 @@ while True:
         name = input("请输入姓名：")
         phone = input("请输入电话：")
         contacts[name] = phone
-        print(f"已添加联系人 {name}")
+        print(f"已添加 {name}")
     elif choice == "2":
         name = input("请输入要查询的姓名：")
         if name in contacts:
